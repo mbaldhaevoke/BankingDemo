@@ -1,0 +1,16 @@
+{
+  "FlowingGas": {
+    "GasQualityInfoPost": {
+      "C166693": {
+        "TestRailLink"      : "https://boardwalkpp.testrail.io/index.php?/cases/view/166693",
+        "JiraLink"          : "",
+        "Title"             : "C166693: GS - Run Job",
+        "User"              : "internal-edit@bwpmlp.org",
+        "TSP"               : "078444247 - Gulf South Pipeline Company, LLC",
+        "API"               : "InfoPost - GasQuality",
+        "tspid"             : "1",
+        "Frequency"         : "Once-Run Now"
+        }
+    }
+  }
+}

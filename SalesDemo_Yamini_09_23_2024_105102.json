@@ -1,0 +1,313 @@
+{
+  "emailId": "pvullanki@evoketechnologies.com",
+  "testId": "474e82a1-73a8-41e6-bf4a-62f6ab0bec81",
+  "testName": "SalesDemo_Yamini",
+  "steps": [
+    {
+      "step": {
+        "event": "Go to URL",
+        "value": "https://www.saucedemo.com/"
+      },
+      "order": 1
+    },
+    {
+      "step": {
+        "startTCIDText": "Start TCID",
+        "startTCIDValue": "Login"
+      },
+      "order": 2
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "username",
+        "locator": "//input[@id='user-name' and @name='user-name' and @placeholder='Username' and @type='text' and @data-test='username']"
+      },
+      "order": 3
+    },
+    {
+      "step": {
+        "event": "Enter",
+        "variable": "username",
+        "locator": "//input[@id='user-name' and @name='user-name' and @placeholder='Username' and @type='text' and @data-test='username']",
+        "value": "standard_user"
+      },
+      "order": 4
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "password",
+        "locator": "//input[@id='password' and @name='password' and @placeholder='Password' and @type='password' and @data-test='password']"
+      },
+      "order": 5
+    },
+    {
+      "step": {
+        "event": "Enter",
+        "variable": "password",
+        "locator": "//input[@id='password' and @name='password' and @placeholder='Password' and @type='password' and @data-test='password']",
+        "value": "secret_sauce"
+      },
+      "order": 6
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "loginbutton",
+        "locator": "//input[@id='login-button' and @name='login-button' and @type='submit' and @data-test='login-button']"
+      },
+      "order": 7
+    },
+    {
+      "step": {
+        "startTCIDText": "Start TCID",
+        "startTCIDValue": "Prodcuts"
+      },
+      "order": 8
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "addtocartsaucelabsbackpack",
+        "locator": "//button[@id='add-to-cart-sauce-labs-backpack' and @name='add-to-cart-sauce-labs-backpack' and @data-test='add-to-cart-sauce-labs-backpack' and normalize-space(.)='Add to cart']"
+      },
+      "order": 9
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "addtocartsaucelabsbikelight",
+        "locator": "//button[@id='add-to-cart-sauce-labs-bike-light' and @name='add-to-cart-sauce-labs-bike-light' and @data-test='add-to-cart-sauce-labs-bike-light' and normalize-space(.)='Add to cart']"
+      },
+      "order": 10
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "addtocartsaucelabsbolttshirt",
+        "locator": "//button[@id='add-to-cart-sauce-labs-bolt-t-shirt' and @name='add-to-cart-sauce-labs-bolt-t-shirt' and @data-test='add-to-cart-sauce-labs-bolt-t-shirt' and normalize-space(.)='Add to cart']"
+      },
+      "order": 11
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "addtocartsaucelabsfleecejacket",
+        "locator": "//button[@id='add-to-cart-sauce-labs-fleece-jacket' and @name='add-to-cart-sauce-labs-fleece-jacket' and @data-test='add-to-cart-sauce-labs-fleece-jacket' and normalize-space(.)='Add to cart']"
+      },
+      "order": 12
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "addtocartsaucelabsonesie",
+        "locator": "//button[@id='add-to-cart-sauce-labs-onesie' and @name='add-to-cart-sauce-labs-onesie' and @data-test='add-to-cart-sauce-labs-onesie' and normalize-space(.)='Add to cart']"
+      },
+      "order": 13
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "addtocarttestallthethingstshirtred",
+        "locator": "//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)' and @name='add-to-cart-test.allthethings()-t-shirt-(red)' and @data-test='add-to-cart-test.allthethings()-t-shirt-(red)' and normalize-space(.)='Add to cart']"
+      },
+      "order": 14
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "removesaucelabsbackpack",
+        "locator": "//button[@id='remove-sauce-labs-backpack' and @name='remove-sauce-labs-backpack' and @data-test='remove-sauce-labs-backpack' and normalize-space(.)='Remove']"
+      },
+      "order": 15
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "removesaucelabsbikelight",
+        "locator": "//button[@id='remove-sauce-labs-bike-light' and @name='remove-sauce-labs-bike-light' and @data-test='remove-sauce-labs-bike-light' and normalize-space(.)='Remove']"
+      },
+      "order": 16
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "removesaucelabsbolttshirt",
+        "locator": "//button[@id='remove-sauce-labs-bolt-t-shirt' and @name='remove-sauce-labs-bolt-t-shirt' and @data-test='remove-sauce-labs-bolt-t-shirt' and normalize-space(.)='Remove']"
+      },
+      "order": 17
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "removesaucelabsfleecejacket",
+        "locator": "//button[@id='remove-sauce-labs-fleece-jacket' and @name='remove-sauce-labs-fleece-jacket' and @data-test='remove-sauce-labs-fleece-jacket' and normalize-space(.)='Remove']"
+      },
+      "order": 18
+    },
+    {
+      "step": {
+        "startTCIDText": "Start TCID",
+        "startTCIDValue": "Add to Cart"
+      },
+      "order": 19
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "removesaucelabsonesie",
+        "locator": "//button[@id='remove-sauce-labs-onesie' and @name='remove-sauce-labs-onesie' and @data-test='remove-sauce-labs-onesie' and normalize-space(.)='Remove']"
+      },
+      "order": 20
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "removetestallthethingstshirtred",
+        "locator": "//button[@id='remove-test.allthethings()-t-shirt-(red)' and @name='remove-test.allthethings()-t-shirt-(red)' and @data-test='remove-test.allthethings()-t-shirt-(red)' and normalize-space(.)='Remove']"
+      },
+      "order": 21
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "addtocartsaucelabsbikelight",
+        "locator": "//button[@id='add-to-cart-sauce-labs-bike-light' and @name='add-to-cart-sauce-labs-bike-light' and @data-test='add-to-cart-sauce-labs-bike-light' and normalize-space(.)='Add to cart']"
+      },
+      "order": 22
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "1",
+        "locator": "//span[@data-test='shopping-cart-badge' and normalize-space(.)='1']"
+      },
+      "order": 23
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "checkout",
+        "locator": "//button[@id='checkout' and @name='checkout' and @data-test='checkout' and normalize-space(.)='Checkout']"
+      },
+      "order": 24
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "firstName",
+        "locator": "//input[@id='first-name' and @name='firstName' and @placeholder='First Name' and @type='text' and @data-test='firstName']"
+      },
+      "order": 25
+    },
+    {
+      "step": {
+        "event": "Enter",
+        "variable": "firstName",
+        "locator": "//input[@id='first-name' and @name='firstName' and @placeholder='First Name' and @type='text' and @data-test='firstName']",
+        "value": "Test"
+      },
+      "order": 26
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "lastName",
+        "locator": "//input[@id='last-name' and @name='lastName' and @placeholder='Last Name' and @type='text' and @data-test='lastName']"
+      },
+      "order": 27
+    },
+    {
+      "step": {
+        "event": "Enter",
+        "variable": "lastName",
+        "locator": "//input[@id='last-name' and @name='lastName' and @placeholder='Last Name' and @type='text' and @data-test='lastName']",
+        "value": "YaminiSales"
+      },
+      "order": 28
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "postalCode",
+        "locator": "//input[@id='postal-code' and @name='postalCode' and @placeholder='Zip/Postal Code' and @type='text' and @data-test='postalCode']"
+      },
+      "order": 29
+    },
+    {
+      "step": {
+        "event": "Enter",
+        "variable": "postalCode",
+        "locator": "//input[@id='postal-code' and @name='postalCode' and @placeholder='Zip/Postal Code' and @type='text' and @data-test='postalCode']",
+        "value": "34343434"
+      },
+      "order": 30
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "continue",
+        "locator": "//input[@id='continue' and @name='continue' and @type='submit' and @data-test='continue']"
+      },
+      "order": 31
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "finish",
+        "locator": "//button[@id='finish' and @name='finish' and @data-test='finish' and normalize-space(.)='Finish']"
+      },
+      "order": 32
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "Thankyouforyourorder",
+        "locator": "//h2[@data-test='complete-header' and normalize-space(.)='Thank you for your order!']"
+      },
+      "order": 33
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "backtoproducts",
+        "locator": "//button[@id='back-to-products' and @name='back-to-products' and @data-test='back-to-products' and normalize-space(.)='Back Home']"
+      },
+      "order": 34
+    },
+    {
+      "step": {
+        "startTCIDText": "Start TCID",
+        "startTCIDValue": "Logout"
+      },
+      "order": 35
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "OpenMenu",
+        "locator": "//button[@id='react-burger-menu-btn' and @type='button' and normalize-space(.)='Open Menu']"
+      },
+      "order": 36
+    },
+    {
+      "step": {
+        "event": "Click",
+        "variable": "Logout",
+        "locator": "//a[@id='logout_sidebar_link' and @data-test='logout-sidebar-link' and normalize-space(.)='Logout']"
+      },
+      "order": 37
+    },
+    {
+      "step": {
+        "event": "Go to url :",
+        "value": "https://google.com"
+      },
+      "order": 38
+    }
+  ],
+  "sessionId": null,
+  "createdDate": 1727103062184,
+  "url": "https://saucedemo.com"
+}

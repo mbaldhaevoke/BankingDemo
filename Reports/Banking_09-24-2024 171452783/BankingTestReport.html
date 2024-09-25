@@ -1,0 +1,534 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 24, 2024 05:14:52 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login Page</p>
+            <p class="text-sm">
+              <span>5:14:53 PM</span> / <span>00:00:37:028</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login Page</h5>
+<span class='badge badge-success'>09.24.2024 5:14:53 PM</span>
+<span class='badge badge-danger'>09.24.2024 5:15:30 PM</span>
+<span class='badge badge-default'>00:00:37:028</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:02:213</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>Login Test</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:14:58 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should enter  leela@gmail.com</div><div style='flex: 1;'>Successfully entered  leela@gmail.com</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='cb987009-7fa0-42b9-8fd1-58267fe9f55f.png' src='e5879282-08ee-420a-9c4c-35f5a2ceaebb.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:14:58 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should enter  Leela@123</div><div style='flex: 1;'>Successfully entered  Leela@123</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='1998f71f-2e22-4313-8ce5-b5d1ac6d850a.png' src='9ee9f8a0-4355-4887-96ee-aa85ff510dd2.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:14:59 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should click  Login</div><div style='flex: 1;'>Succesfully clicked  Login</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='abd99647-f003-4770-bc0c-8ad441b7c964.png' src='3eb47ce8-78bf-4773-88c3-36d790ea51ec.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:14:59 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  LogOut</div><div style='flex: 1;'>Successfully displayed  LogOut</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='394677e5-4b4d-46f1-9c13-19ebabe90c28.png' src='326f6f37-9041-44b7-a269-1ab8161548d9.png'>    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:30:356</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="3"><span>Logout</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:15:30 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should click  Logout</div><div style='flex: 1;'>Failed to click  Logout</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='b1b20f2b-7d03-426a-ab52-1b7c4d98ef41.png' src='5b27da3a-24bb-49d6-9a03-c31ab8182362.png'>    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Fund Transfer Page</p>
+            <p class="text-sm">
+              <span>5:15:30 PM</span> / <span>00:00:38:812</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Fund Transfer Page</h5>
+<span class='badge badge-success'>09.24.2024 5:15:30 PM</span>
+<span class='badge badge-danger'>09.24.2024 5:16:09 PM</span>
+<span class='badge badge-default'>00:00:38:812</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:02:306</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="5"><span>Login Test</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:33 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should enter  leela@gmail.com</div><div style='flex: 1;'>Successfully entered  leela@gmail.com</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='6378632f-1b80-4222-a1ef-2e0b10b0c296.png' src='d737f8da-a5e1-49ec-a516-cc84470323d2.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:34 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should enter  Leela@123</div><div style='flex: 1;'>Successfully entered  Leela@123</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='c01795f6-5878-4679-b32b-7ed2c21b8f0f.png' src='b14d09f4-a007-4c63-8286-0502c1e572f2.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:34 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should click  Login</div><div style='flex: 1;'>Succesfully clicked  Login</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='65e0b25e-e306-45da-9212-8da13a92107e.png' src='f477a44d-3357-4f80-8070-a115a01037bf.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:34 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  LogOut</div><div style='flex: 1;'>Successfully displayed  LogOut</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='7d9df7a0-49af-42f7-916d-b57ede6f939e.png' src='4d85f857-0bf4-4692-af57-71bb3c67e312.png'>    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:03:818</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>Account Summary Details</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:35 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should click  Payment method</div><div style='flex: 1;'>Succesfully clicked  Payment method</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='12253e17-9a23-4521-a187-f366c78c0cad.png' src='6b2ce288-6c94-4a80-8eb1-11c2860d2a0c.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:36 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  Account Holder Name</div><div style='flex: 1;'>Successfully displayed  Account Holder Name</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='bbc75681-e656-4bd5-9cc9-c60a1fb39ea5.png' src='04dfe7aa-9840-490a-96ec-dd03ca53089e.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:36 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  Account Type</div><div style='flex: 1;'>Successfully displayed  Account Type</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='cad4e9e1-8fae-48ea-bfe2-87928e2f3fa3.png' src='436261cd-74e6-4199-8bc7-3326e39843b3.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:37 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  Account Number</div><div style='flex: 1;'>Successfully displayed  Account Number</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='e151b1ac-a2f0-45ec-9cba-f2356d7cc5e0.png' src='a4825109-4a9e-4683-9d89-304b3953ab87.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:37 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  IFSC Code</div><div style='flex: 1;'>Successfully displayed  IFSC Code</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='accd7149-2a3a-46dd-bb98-ac9c0d9b520d.png' src='43a78f7c-0246-4c2d-92c9-0e4c47fd1038.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:38 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  Available Balance in Rupees</div><div style='flex: 1;'>Successfully displayed  Available Balance in Rupees</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='ed268fed-1fe8-40d9-8583-353142da7a62.png' src='17109114-bad2-4549-8d65-62d632b4eef2.png'>    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:15:38 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should display  Account Branch</div><div style='flex: 1;'>Successfully displayed  Account Branch</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='8546c01f-6f26-4e5b-8a4f-0a8e386e052c.png' src='50203a97-7f37-4321-9355-239a0adfb73d.png'>    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge fail-bg log ">Fail</span></li>
+              <li><span class='badge badge-default'>30:30:643</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="7"><span>Logout</span></a>
+            <div class="node-attr">
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+            
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:16:09 PM</td>
+        <td>
+          <div style='display: flex; justify-content: space-between;'><div style='flex: 1;'>Should click  Logout</div><div style='flex: 1;'>Failed to click  Logout</div></div>  <div class='row mb-3'><div class='col-md-3'></div><div class='col-md-3'></div><div class='col-md-3'><img data-featherlight='0f7e3baf-484b-495c-9cd3-4e7e1b42e3d4.png' src='a8297ef2-c5d3-4b30-8a5f-e0c1432dd5ee.png'>    </div></div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 24, 2024 05:14:52 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 24, 2024 05:16:09 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Class Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Class Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Class</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> class passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>2</b> class failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Methods</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='60%'><b>3</b> methods passed</small></div>
+<div>
+<small data-tooltip='40%'><b>2</b> methods failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='88%'><b>15</b> events passed</small></div>
+<div>
+<small data-tooltip='11%'><b>2</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login Page":37.028,"Fund Transfer Page":38.812
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 3,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 15,
+failEvents: 2,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

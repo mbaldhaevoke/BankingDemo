@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Evoke Banking Suite" thread-count="10">
+    <test name="Banking App">
+        <classes>
+            <class name="com.testscenarios.LoginTests"/>
+            <class name="com.testscenarios.FundTransferTests"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
